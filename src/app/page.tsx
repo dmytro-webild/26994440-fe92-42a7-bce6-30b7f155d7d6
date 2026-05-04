@@ -141,7 +141,7 @@ export default function Page() {
             title="PHOTOS"
             description=""
             testimonials={[
-              { id: "1", name: "Lisa McEnturff", role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875435533-pqcl2ex1.png" },
+              { id: "1", name: 'Lisa McEnturff-"Getting a new roof is a big thing for us"', role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875435533-pqcl2ex1.png" },
               { id: "2", name: "Timothy Yocom", role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875465251-2mlyn4h9.png" }
             ]}
             gridVariant="three-columns-all-equal-width"
