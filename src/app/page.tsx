@@ -134,11 +134,11 @@ export default function Page() {
 
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardOne
-            title="Trusted by Leaders"
-            description="Hear how partners have scaled with our support."
+            title="PHOTOS"
+            description=""
             testimonials={[
-              { id: "1", name: "Alex Rivers", role: "Director", company: "Innovate Corp", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiley-woman-posing-indoors-side-view_23-2149833740.jpg" },
-              { id: "2", name: "Elena Vo", role: "Founder", company: "Global Dynamics", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/confident-businesswoman-looking-camera-with-arm-crossed_23-2148187252.jpg" }
+              { id: "1", name: "Lisa McEnturff", role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875435533-pqcl2ex1.png" },
+              { id: "2", name: "Timothy Yocom", role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875465251-2mlyn4h9.png" }
             ]}
             gridVariant="three-columns-all-equal-width"
             animationType="slide-up"
