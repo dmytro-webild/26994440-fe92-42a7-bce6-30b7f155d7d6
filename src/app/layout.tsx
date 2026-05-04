@@ -12,6 +12,7 @@ import { Inter_Tight } from "next/font/google";
 
 export const metadata: Metadata = { title: '9X Services | Operational Excellence & Facility Solutions', description: '9X Services delivers professional facility maintenance, operational strategy, and asset management for high-growth businesses. Achieve your potential today.' };
 
+
 const interTight = Inter_Tight({
   variable: "--font-inter-tight",
   subsets: ["latin"],
