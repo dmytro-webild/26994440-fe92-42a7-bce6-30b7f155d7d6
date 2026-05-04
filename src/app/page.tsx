@@ -110,7 +110,7 @@ export default function Page() {
             description="Tangible growth through disciplined, professional execution."
             metrics={[
               { id: "1", value: "9.8/10", title: "Avg Satisfaction", description: "Our client feedback score remains industry leading.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875263813-u3vxkab0.png" },
-              { id: "2", value: "7AM  8PM", title: "Service Uptime", description: "Constant support for your mission-critical operations.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875277989-09zjx6gv.png" },
+              { id: "2", value: "7AM 8PM", title: "Service Uptime", description: "Constant support for your mission-critical operations.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875277989-09zjx6gv.png" },
               { id: "3", value: "500+", title: "Projects Delivered", description: "Extensive track record of successful enterprise engagements.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875228786-fsa22upa.png" }
             ]}
             animationType="slide-up"
