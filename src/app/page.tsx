@@ -51,7 +51,7 @@ export default function Page() {
               { text: "Explore Solutions", href: "#services" },
               { text: "Request Consultation", href: "#contact" },
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/view-modern-office_1170-1963.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874530952-5e8r3785.png"
             imageAlt="Corporate facility interior"
             marqueeItems={[
               { type: "text-icon", text: "Operations Excellence", icon: Award },
@@ -81,7 +81,7 @@ export default function Page() {
               { title: "Certified Standards", description: "Compliance and safety at the core of every project.", icon: Shield },
               { title: "Advanced Tech", description: "Leveraging modern tools to maximize efficiency.", icon: Wrench }
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/co-workers-talking-about-annual-sales_1098-489.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874810270-op7o6bpe.png"
             imagePosition="right"
             textboxLayout="default"
           />
@@ -92,9 +92,9 @@ export default function Page() {
             title="Our Core Competencies"
             description="Specialized service packages tailored to your business needs."
             features={[
-              { title: "Facility Maintenance", description: "Preventative and corrective care for your physical assets.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-worker-hard-hat-large-metalworking-plant_146671-19551.jpg" },
-              { title: "Operational Strategy", description: "Consulting services to refine and optimize your workflows.", imageSrc: "http://img.b2bpic.net/free-photo/creative-thinking-business-strategy-concept_53876-132164.jpg" },
-              { title: "Asset Management", description: "Lifecycle tracking and performance optimization.", imageSrc: "http://img.b2bpic.net/free-photo/angry-manager-office-berating-worker-hitting-performance-targets_482257-126645.jpg" }
+              { title: "Facility Maintenance", description: "Preventative and corrective care for your physical assets.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874877728-g9x9tx8j.png" },
+              { title: "Operational Strategy", description: "Consulting services to refine and optimize your workflows.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874707220-v6k7fmsh.png" },
+              { title: "Asset Management", description: "Lifecycle tracking and performance optimization.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874717944-7gd761fa.png" }
             ]}
             gridVariant="three-columns-all-equal-width"
             animationType="slide-up"
