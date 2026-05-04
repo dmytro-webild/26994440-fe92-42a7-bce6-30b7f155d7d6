@@ -65,7 +65,7 @@ export default function Page() {
                 imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-businesswoman-suit-cross-arms-chest-looking-like-real-professional-smili_1258-122403.jpg"
               },
               {
-                name: "Mark Sterling",                handle: "CEO, TechFlow",                testimonial: "Strategic partners that deliver consistent, high-performing results every time.",                rating: 5,
+                name: "Mark Sterling",                handle: "C",                testimonial: "Strategic partners that deliver consistent, high-performing results every time.",                rating: 5,
                 imageSrc: "http://img.b2bpic.net/free-photo/browneyed-stylish-brunet-bearded-man-white-shirt-checkered-jacket-smiles-looks-into-camera-orange-background_197531-29376.jpg"
               }
             ]}
