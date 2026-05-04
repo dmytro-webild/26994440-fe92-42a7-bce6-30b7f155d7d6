@@ -12,7 +12,7 @@ import FaqDouble from "@/components/sections/faq/FaqDouble";
 import FeatureCardTen from "@/components/sections/feature/FeatureCardTen";
 import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import { Shield, Wrench, Search, ClipboardCheck, Award, Users, Clock } from "lucide-react";
+import { Shield, Wrench, Search, ClipboardCheck, Award, Users, Clock, Phone } from "lucide-react";
 
 export default function Page() {
   return (
@@ -167,12 +167,14 @@ export default function Page() {
 
         <div id="contact" data-section="contact">
           <ContactSplitForm
-            title="Contact 9X Services"
-            description="Submit the form below for a custom plan tailored to your operational requirements."
+            title="Let's Connect"
+            description="Get in touch today. Call us at (817) 271-8550 or fill out the form for a free consultation."
             inputs={[
               { name: "name", type: "text", placeholder: "Full Name" },
-              { name: "email", type: "email", placeholder: "Work Email" }
+              { name: "email", type: "email", placeholder: "Work Email" },
+              { name: "phone", type: "tel", placeholder: "Phone Number" }
             ]}
+            textarea={{ name: "message", placeholder: "How can we help you?", rows: 4, required: true }}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777876134066-0bq9n0mi.png"
             useInvertedBackground={false}
           />
@@ -182,8 +184,10 @@ export default function Page() {
           <FooterBase
             logoText="9X Services"
             columns={[
-              { title: "Navigation", items: [{ label: "Home", href: "#" }, { label: "Contact", href: "#contact" }] }
+              { title: "Quick Links", items: [{ label: "Home", href: "#" }, { label: "About", href: "#about" }, { label: "Services", href: "#services" }] },
+              { title: "Contact Info", items: [{ label: "(817) 271-8550", href: "tel:8172718550" }, { label: "Support", href: "#contact" }] }
             ]}
+            copyrightText="© 2025 9X Services. All Rights Reserved."
           />
         </div>
       </ReactLenis>
