@@ -12,7 +12,7 @@ import FaqDouble from "@/components/sections/faq/FaqDouble";
 import FeatureCardTen from "@/components/sections/feature/FeatureCardTen";
 import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import { Shield, Wrench, Search, HelpCircle, ClipboardCheck, Phone, HardHat, CheckCircle, Clock, Users, Award, ThumbsUp, Star } from "lucide-react";
+import { Shield, Wrench, Search, ClipboardCheck, Award, Users, Clock } from "lucide-react";
 
 export default function Page() {
   return (
@@ -84,6 +84,7 @@ export default function Page() {
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874810270-op7o6bpe.png"
             imagePosition="right"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -99,6 +100,7 @@ export default function Page() {
             gridVariant="three-columns-all-equal-width"
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -113,6 +115,7 @@ export default function Page() {
             ]}
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -129,6 +132,7 @@ export default function Page() {
             ]}
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -143,6 +147,7 @@ export default function Page() {
             gridVariant="three-columns-all-equal-width"
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -156,6 +161,7 @@ export default function Page() {
             ]}
             faqsAnimation="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
           />
         </div>
 
@@ -168,6 +174,7 @@ export default function Page() {
               { name: "email", type: "email", placeholder: "Work Email" }
             ]}
             imageSrc="http://img.b2bpic.net/free-photo/business-meeting-room-office_1170-1966.jpg"
+            useInvertedBackground={false}
           />
         </div>
 
