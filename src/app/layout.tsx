@@ -9,6 +9,7 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Inter_Tight } from "next/font/google";
 import { Raleway } from "next/font/google";
 import { Archivo } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 
 
 
@@ -17,8 +18,13 @@ export const metadata: Metadata = { title: '9X Services | Operational Excellence
 
 
 
-const archivo = Archivo({
-  variable: "--font-archivo",
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+});
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -30,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${archivo.variable} antialiased`}>
+        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
