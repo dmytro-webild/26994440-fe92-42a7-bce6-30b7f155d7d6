@@ -46,7 +46,7 @@ export default function Page() {
           <HeroBillboardTestimonial
             background={{ variant: "glowing-orb" }}
             title="Excellence in Every Detail, 9X Services."
-            description="We deliver high-end facility and maintenance solutions designed for modern business environments. Precision, reliability, and growth driven by our expert team."
+            description="We deliver high-end facility and maintenance solutions designed for modern business environments. Contact us at (817) 271-8550. Precision, reliability, and growth driven by our expert team."
             buttons={[
               { text: "Explore Solutions", href: "#services" },
               { text: "Request Consultation", href: "#contact" },
@@ -154,7 +154,7 @@ export default function Page() {
         <div id="faq" data-section="faq">
           <FaqDouble
             title="Frequently Asked Questions"
-            description="Everything you need to know about partnering with 9X for your facility needs."
+            description="Everything you need to know about partnering with 9X. Call (817) 271-8550 for urgent queries."
             faqs={[
               { id: "1", title: "How do we get started?", content: "Fill out the contact form and we will reach out within 24 hours." },
               { id: "2", title: "Are your services scalable?", content: "Yes, all our service packages are fully modular." }
@@ -168,7 +168,7 @@ export default function Page() {
         <div id="contact" data-section="contact">
           <ContactSplitForm
             title="Contact 9X Services"
-            description="Submit the form below for a custom plan tailored to your operational requirements."
+            description="Call us directly at (817) 271-8550 or submit the form for a custom plan."
             inputs={[
               { name: "name", type: "text", placeholder: "Full Name" },
               { name: "email", type: "email", placeholder: "Work Email" }
@@ -180,7 +180,7 @@ export default function Page() {
 
         <div id="footer" data-section="footer">
           <FooterBase
-            logoText="9X Services"
+            logoText="9X Services                              Call (817) 271-8550"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "#" }, { label: "Contact", href: "#contact" }] }
             ]}
