@@ -173,7 +173,7 @@ export default function Page() {
               { name: "name", type: "text", placeholder: "Full Name" },
               { name: "email", type: "email", placeholder: "Work Email" }
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/business-meeting-room-office_1170-1966.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777876134066-0bq9n0mi.png"
             useInvertedBackground={false}
           />
         </div>
