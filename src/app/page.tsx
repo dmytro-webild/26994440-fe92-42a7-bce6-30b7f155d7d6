@@ -180,7 +180,7 @@ export default function Page() {
 
         <div id="footer" data-section="footer">
           <FooterBase
-            logoText="9X Services"
+            logoText="9X Services                              CALL 8172718550"
             columns={[
               { title: "Navigation", items: [{ label: "Home", href: "#" }, { label: "Contact", href: "#contact" }] }
             ]}
