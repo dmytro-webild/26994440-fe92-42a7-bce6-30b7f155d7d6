@@ -7,7 +7,6 @@ import HeroBillboardTestimonial from "@/components/sections/hero/HeroBillboardTe
 import SplitAbout from "@/components/sections/about/SplitAbout";
 import FeatureCardThree from "@/components/sections/feature/featureCardThree/FeatureCardThree";
 import MetricCardEleven from "@/components/sections/metrics/MetricCardEleven";
-import TestimonialCardOne from "@/components/sections/testimonial/TestimonialCardOne";
 import FaqDouble from "@/components/sections/faq/FaqDouble";
 import FeatureCardTen from "@/components/sections/feature/FeatureCardTen";
 import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
@@ -35,7 +34,6 @@ export default function Page() {
             navItems={[
               { name: "About", id: "about" },
               { name: "Services", id: "services" },
-              { name: "Testimonials", id: "testimonials" },
               { name: "FAQ", id: "faq" },
               { name: "Contact", id: "contact" },
             ]}
@@ -47,6 +45,7 @@ export default function Page() {
             background={{ variant: "glowing-orb" }}
             title="Excellence in Every Detail, 9X Services."
             description="We deliver high-end facility and maintenance solutions designed for modern business environments. Contact us at (817) 271-8550. Precision, reliability, and growth driven by our expert team."
+            testimonials={[]}
             buttons={[
               { text: "Explore Solutions", href: "#services" },
               { text: "Request Consultation", href: "#contact" },
@@ -58,16 +57,6 @@ export default function Page() {
               { type: "text-icon", text: "Professional Support", icon: Users },
               { type: "text-icon", text: "Certified Quality", icon: Shield },
               { type: "text-icon", text: "Efficiency Focused", icon: Clock },
-            ]}
-            testimonials={[
-              {
-                name: "Sarah Jenkins",                handle: "Operations Manager",                testimonial: "The quality provided by 9X Services is unmatched. They optimized our workflow completely.",                rating: 5,
-                imageSrc: "http://img.b2bpic.net/free-photo/portrait-confident-businesswoman-suit-cross-arms-chest-looking-like-real-professional-smili_1258-122403.jpg"
-              },
-              {
-                name: "Mark Sterling",                handle: "C",                testimonial: "Strategic partners that deliver consistent, high-performing results every time.",                rating: 5,
-                imageSrc: "http://img.b2bpic.net/free-photo/browneyed-stylish-brunet-bearded-man-white-shirt-checkered-jacket-smiles-looks-into-camera-orange-background_197531-29376.jpg"
-              }
             ]}
           />
         </div>
@@ -130,21 +119,6 @@ export default function Page() {
                 reverse: false
               }
             ]}
-            animationType="slide-up"
-            textboxLayout="default"
-            useInvertedBackground={false}
-          />
-        </div>
-
-        <div id="testimonials" data-section="testimonials">
-          <TestimonialCardOne
-            title="PHOTOS"
-            description=""
-            testimonials={[
-              { id: "1", name: 'Casey Pendergraft-"Thank you 9xServices for the excellent job of replacing my roof on my home."', role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875435533-pqcl2ex1.png" },
-              { id: "2", name: 'Brandy england-"What a great experience Truett is very easy to work with"', role: "", company: "", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875465251-2mlyn4h9.png" }
-            ]}
-            gridVariant="three-columns-all-equal-width"
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
