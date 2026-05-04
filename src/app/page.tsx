@@ -107,9 +107,9 @@ export default function Page() {
             title="Results That Matter"
             description="Tangible growth through disciplined, professional execution."
             metrics={[
-              { id: "1", value: "9.8/10", title: "Avg Satisfaction", description: "Our client feedback score remains industry leading.", imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904317.jpg" },
-              { id: "2", value: "7AM-8PM", title: "Service Uptime", description: "Constant support for your mission-critical operations.", imageSrc: "http://img.b2bpic.net/free-photo/future-visions-business-technology-concept_23-2151893460.jpg" },
-              { id: "3", value: "500+", title: "Projects Delivered", description: "Extensive track record of successful enterprise engagements.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-fuel-level-gauge-vehicle_23-2150163679.jpg" }
+              { id: "1", value: "9.8/10", title: "Avg Satisfaction", description: "Our client feedback score remains industry leading.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875263813-u3vxkab0.png" },
+              { id: "2", value: "7AM-8PM", title: "Service Uptime", description: "Constant support for your mission-critical operations.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875277989-09zjx6gv.png" },
+              { id: "3", value: "500+", title: "Projects Delivered", description: "Extensive track record of successful enterprise engagements.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875228786-fsa22upa.png" }
             ]}
             animationType="slide-up"
             textboxLayout="default"
@@ -122,7 +122,7 @@ export default function Page() {
             description="A transparent approach that guarantees project success."
             features={[
               {
-                title: "Discovery Phase",                description: "Deep audit of current operations and pain points.",                media: { imageSrc: "http://img.b2bpic.net/free-photo/flowchart-information-methodology-operation-icon_53876-133778.jpg" },
+                title: "Discovery Phase",                description: "Deep audit of current operations and pain points.",                media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777875334387-e4uafdd7.png" },
                 items: [{ icon: Search, text: "Initial Assessment" }, { icon: ClipboardCheck, text: "Goal Alignment" }],
                 reverse: false
               }
