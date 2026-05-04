@@ -45,6 +45,7 @@ export default function Page() {
             background={{ variant: "glowing-orb" }}
             title="Excellence in Every Detail, 9X Services."
             description="We deliver high-end facility and maintenance solutions designed for modern business environments. Contact us at (817) 271-8550. Precision, reliability, and growth driven by our expert team."
+            testimonials={[]}
             buttons={[
               { text: "Explore Solutions", href: "#services" },
               { text: "Request Consultation", href: "#contact" },
