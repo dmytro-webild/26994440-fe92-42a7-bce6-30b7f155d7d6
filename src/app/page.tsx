@@ -92,7 +92,7 @@ export default function Page() {
             title="Our Core Competencies"
             description="Specialized service packages tailored to your business needs."
             features={[
-              { title: "Facility Maintenance", description: "Preventative and corrective care for your physical assets.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874877728-g9x9tx8j.png" },
+              { title: "Facility Maintenance", description: "Preventative and corrective care for your physical assets.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874914167-n0sblyb9.png" },
               { title: "Operational Strategy", description: "Consulting services to refine and optimize your workflows.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874707220-v6k7fmsh.png" },
               { title: "Asset Management", description: "Lifecycle tracking and performance optimization.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DFJdZg6mYP5vddUOuW7tUYFi4q/uploaded-1777874717944-7gd761fa.png" }
             ]}
@@ -108,7 +108,7 @@ export default function Page() {
             description="Tangible growth through disciplined, professional execution."
             metrics={[
               { id: "1", value: "9.8/10", title: "Avg Satisfaction", description: "Our client feedback score remains industry leading.", imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904317.jpg" },
-              { id: "2", value: "24/7", title: "Service Uptime", description: "Constant support for your mission-critical operations.", imageSrc: "http://img.b2bpic.net/free-photo/future-visions-business-technology-concept_23-2151893460.jpg" },
+              { id: "2", value: "7AM-8PM", title: "Service Uptime", description: "Constant support for your mission-critical operations.", imageSrc: "http://img.b2bpic.net/free-photo/future-visions-business-technology-concept_23-2151893460.jpg" },
               { id: "3", value: "500+", title: "Projects Delivered", description: "Extensive track record of successful enterprise engagements.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-fuel-level-gauge-vehicle_23-2150163679.jpg" }
             ]}
             animationType="slide-up"
